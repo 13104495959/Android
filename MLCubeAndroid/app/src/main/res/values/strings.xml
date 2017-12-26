@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MLCubeAndroid</string>
+    <string name="bottom_navigation_view_other">其他</string>
+    <string name="bottom_navigation_view_device">设备</string>
+    <string name="bottom_navigation_view_quit">退出</string>
+
+</resources>
