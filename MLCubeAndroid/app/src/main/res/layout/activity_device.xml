@@ -4,17 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.gonghe.mlcubeandroid.lcrown.mlcubeandroid.MainActivity">
+    tools:context="com.example.gonghe.mlcubeandroid.lcrown.mlcubeandroid.DeviceActivity">
 
-    <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
-        android:id="@+id/bnve"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        app:itemIconTint="@color/colorPrimary"
-        app:itemTextColor="@color/colorBlack"
-        app:menu="@menu/bottomnavigationviewmenu" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+        android:text="我是设备的xml界面"
+        android:textColor="@color/colorBlack"
+        android:textSize="15dp"
 
+        />
 
 </android.support.constraint.ConstraintLayout>

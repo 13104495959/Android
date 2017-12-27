@@ -3,15 +3,15 @@
 
     <item android:id="@+id/bottom_navigation_view_device"
         android:title="@string/bottom_navigation_view_device"
-        android:icon="@mipmap/ic_launcher" />
+        android:icon="@drawable/ic_facility_aged" />
 
     <item android:id="@+id/bottom_navigation_view_other"
         android:title="@string/bottom_navigation_view_other"
-        android:icon="@drawable/ic_launcher_background" />
+        android:icon="@drawable/ic_facility_aged" />
 
     <item android:id="@+id/bottom_navigation_view_quit"
         android:title="@string/bottom_navigation_view_quit"
-        android:icon="@drawable/images"
+        android:icon="@drawable/ic_facility_aged"
         />
 
 </menu>
