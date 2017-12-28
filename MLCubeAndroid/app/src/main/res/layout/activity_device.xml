@@ -7,12 +7,14 @@
     tools:context="com.example.gonghe.mlcubeandroid.lcrown.mlcubeandroid.DeviceActivity">
 
     <TextView
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="100dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginLeft="20dp"
+
         android:text="我是设备的xml界面"
         android:textColor="@color/colorBlack"
         android:textSize="15dp"
